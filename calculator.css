@@ -1,0 +1,60 @@
+*{
+    font-family: 'Poppins', 'sans-serif';
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+
+#calculator {
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: rgb(4, 55, 39);
+}
+
+
+input {
+    width: 90%;
+    position: relative;
+    top: 20px;
+    left: 5px;
+    background-color: rgb(124, 34, 34);
+    color: white;
+}
+
+
+
+h1{
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    position: relative;
+    top: 30px;
+}
+
+td button{
+    border: 0;
+    outline: 0;
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1),5px 5px 15px rgba(0, 0, 0, 0.2);
+    background: transparent;
+    color: rgb(201, 57, 57);
+    font-weight: bold;
+}
+
+.equal button {
+    width: 90px;
+}
+
+.move {
+    position: relative;
+    right: 50px;
+}
